@@ -337,28 +337,37 @@ export default function CardioLanding() {
             <Accordion type="single" collapsible className="space-y-4">
               <AccordionItem value="item-1" className="border rounded-lg px-6">
                 <AccordionTrigger className="text-left font-semibold">
-                  Preciso de pedido médico para fazer ECG?
+                  Como funciona o atendimento?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Sim, mas nossos clínicos podem emitir na hora. Você não precisa se preocupar com burocracia.
+                  Presencial com agendamento via WhatsApp. Atendimento ágil e sem filas.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-2" className="border rounded-lg px-6">
                 <AccordionTrigger className="text-left font-semibold">
-                  O Holter atrapalha meu dia a dia?
+                  Trabalha com convênios?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Não! É um pequeno gravador portátil que você usa normalmente durante suas atividades.
+                  Não. Atendemos exclusivamente como clínica particular, com recibo para reembolso.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-3" className="border rounded-lg px-6">
                 <AccordionTrigger className="text-left font-semibold">
-                  Exames detectam risco de infarto?
+                  Como agendo minha consulta?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Sim, identificamos fatores de risco precocemente, permitindo prevenção eficaz.
+                  Entre em contato pelo WhatsApp (75) 3026‑8494 ou via redes sociais.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-4" className="border rounded-lg px-6">
+                <AccordionTrigger className="text-left font-semibold">
+                  Qual o valor das consultas?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600">
+                  Consultas a partir de R$ 150 e procedimentos desde R$ 80.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
